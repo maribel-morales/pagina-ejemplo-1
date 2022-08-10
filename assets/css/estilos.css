@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.displacement{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.section-principal{
+    background-image: url(../img/joel-filipe-VuwAfoHpxgs-unsplash.jpg);
+    padding: 0.1px;
+}
+
+.section-principal h2{
+    background: #100F0F;
+    border-radius: 5px;
+    color:#F1F1F1;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 50px);
+    text-align: center;
+    width: 300px;
+}
+
+.section-description{
+    text-align: center;
+    padding: 60px 30px;
+    width: 100%;
+}
+
+.section-description p{
+    padding: 20px;
+}
+
+.section-secundaria{
+    background-image: url(../img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    color: #F1F1F1;
+    height: 600px;
+    line-height: 600px;
+    text-align: center;
+}
+
+.displacement h3{
+    font-size: 4rem;
+}
+
+
+.section-tercero{
+    background-image: url(../img/kenny-eliason-mqoLpeeYBic-unsplash.jpg);
+    color: #F1F1F1;
+    line-height: 100vh;
+    text-align: center;
+}
